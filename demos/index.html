@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>jQuery HTML5 form demo</title>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+google.load("jquery", "1.7.1");
+google.load("jqueryui", "1.8.1");
+</script>
+<script src="../jquery.html5form-min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){$('form').html5form({async:false, emptyMessage : 'Ќе заполнено поле',
+        emailMessage : 'Ёто не похоже на email-адрес',
+        responseDiv : '#response'});});
+</script>
+</head>
+<body>
+<h1>jQuery HTML 5 form demo</h1>
+<form>
+text:<input type="text" required="required" placeholder="test"/><br/>
+email:<input type="email" required="required" placeholder="test@test.com"/><br/>
+password:<input type="password" required="required" placeholder="test"/><br/>
+select: <select required="required"><option value="">Please select</option><option value="1">One</option><option value="2">Two</option></select><br/>
+checkbox: <label><input type="checkbox" required="required"></label><br/>
+radio: <label><input type="radio" name="test" value="1" required="required"/>One</label><label><input type="radio" name="test" value="2" required="required"/>Two</label><br/>
+<input type="submit">
+</form>
+</body>
+</html>
