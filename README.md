@@ -9,4 +9,4 @@ Features:
 
 You can read documentation here: http://www.matiasmancini.com.ar/jquery-plugin-ajax-form-validation-html5.html
 
-PS: But please, enable jQuery UI library with Highlight effect frist!
+PS: But please, enable jQuery UI library with Highlight effect first!
