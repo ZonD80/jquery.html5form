@@ -8,7 +8,7 @@
     $.fn.html5form = function (options) {
         $(this).each(function () {
             var defaults = {
-                async: true,
+                async: false,
                 method: $(this).attr('method'),
                 responseDiv: null,
                 labels: 'show',
